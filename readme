@@ -1,0 +1,4 @@
+conda create -n gc_binary python=3.11
+conda activate gc_binary
+
+pip install numpy pandas scipy matplotlib scikit-learn pymc arviz corner pytensor
